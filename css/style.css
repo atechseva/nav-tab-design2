@@ -1,0 +1,116 @@
+.nav{
+    background-color: #ff004cab;
+    padding: 25px;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: #eeb806 !important;
+    border-color: transparent transparent #f3f3f3;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    color: white;
+    font-size: 20px;
+    background-color: #fab803;
+    border: 1px solid #efe4a4;
+    
+}
+
+.nav-item {
+    border-radius: 0 !important;
+}
+
+.nav-item:last-child {
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+
+.nav-item:first-child {
+    border-top-left-radius: .5rem !important;
+    border-bottom-left-radius: .5rem !important;
+}
+
+.nav-tabs .nav-link.active{
+   background-color: #ff004cab !important; 
+   transition: all .4s ease-in;
+}
+
+
+
+
+
+
+/* -----------Services------ */
+.section-title {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .section-description {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-title-divider {
+    width: 50px;
+    height: 3px;
+    background: #ff004cab;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  #services {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }
+  
+  #services .service-item {
+    margin-bottom: 20px;
+  }
+  
+  #services .service-icon {
+    float: left;
+    background: #ff004cab;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #ff004cab;
+  }
+  
+  #services .service-icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  #services .service-item:hover .service-icon {
+    background: #fff;
+  }
+  
+  #services .service-item:hover .service-icon i {
+    color: #ff004cab;
+  }
+  
+  #services .service-title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  #services .service-title a {
+    color: #111;
+  }
+  
+  #services .service-description {
+    margin-left: 80px;
+    line-height: 24px;
+  }
